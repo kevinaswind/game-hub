@@ -1,7 +1,13 @@
-import { extendTheme } from "@chakra-ui/react";
+import { extendTheme, ThemeConfig } from "@chakra-ui/react";
 import "@fontsource/ubuntu";
 
+const config: ThemeConfig = {
+  initialColorMode: "dark",
+  useSystemColorMode: false,
+};
+
 const theme = extendTheme({
+  config,
   fonts: {
     heading: `'Raleway', sans-serif`,
     body: `'Ubuntu', sans-serif`,
