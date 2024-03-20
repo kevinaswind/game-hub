@@ -22,7 +22,7 @@ const App = () => {
       <Show above={"lg"}>
         <GridItem area={"aside"}>Aside</GridItem>
       </Show>
-      <GridItem area={"main"}>
+      <GridItem area={"main"} padding={20}>
         <GameGrid />
       </GridItem>
     </Grid>
