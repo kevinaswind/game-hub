@@ -9,7 +9,7 @@ const config: ThemeConfig = {
 const theme = extendTheme({
   config,
   fonts: {
-    heading: `'Raleway', sans-serif`,
+    heading: `'Ubuntu', sans-serif`,
     body: `'Ubuntu', sans-serif`,
   },
   textStyles: {
